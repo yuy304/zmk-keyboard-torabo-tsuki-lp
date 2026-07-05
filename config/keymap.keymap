@@ -36,6 +36,13 @@
             bindings = <&bt BT_SEL 1 &to 7>;
             label = "BT_SEL_1_LAYER_7";
         };
+
+        out_usb_layer_0: out_usb_layer_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&out OUT_USB &to 0>;
+            label = "OUT_USB_LAYER_0";
+        };
     };
 
     keymap {
@@ -74,10 +81,10 @@
         layer_3 {
             bindings = <
  &none  &bt_sel_0_layer_0  &bt_sel_1_layer_7  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &none  &none  &none  &none    &none    &none
- &none  &out OUT_USB       &out OUT_BLE       &none         &none         &none                            &none  &none  &none  &none    &none    &none
- &none  &none              &none              &none         &none         &none         &bt BT_CLR  &none  &none  &to 0    &tog 7   &none  &none  &none
- &none  &none              &none              &none         &none         &none         &none       &none  &none  &none    &none    &none  &none  &none
- &none  &none              &none              &none         &none         &none         &none       &none  &none  &none    &none    &none  &none  &none
+ &none  &out_usb_layer_0    &out OUT_BLE       &none         &none         &none                            &none  &none  &none  &none    &none    &none
+ &none  &none               &none              &none         &none         &none         &bt BT_CLR  &none  &none  &to 0    &tog 7   &none  &none  &none
+ &none  &none               &none              &none         &none         &none         &none       &none  &none  &none    &none    &none  &none  &none
+ &none  &none               &none              &none         &none         &none         &none       &none  &none  &none    &none    &none  &none  &none
             >;
         };
 
