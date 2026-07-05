@@ -1,12 +1,27 @@
 #include "torabo_tsuki_lp.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+
+/ {
+    input_processors {
+        zip_vertical_scroll_mapper: zip_vertical_scroll_mapper {
+            compatible = "zmk,input-processor-code-mapper";
+            #input-processor-cells = <0>;
+            type = <INPUT_EV_REL>;
+            map = <
+                INPUT_REL_X INPUT_REL_MISC
+                INPUT_REL_Y INPUT_REL_WHEEL
+            >;
+        };
+    };
+};
 
 &pointing_listener {
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &automouse_layer 4 10000>;
 
     scroll_mode {
         layers = <5>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &zip_vertical_scroll_mapper>;
     };
 };
