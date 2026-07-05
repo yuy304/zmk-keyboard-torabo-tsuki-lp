@@ -73,7 +73,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &to 0   &trans  &trans  &to 0     &trans     &trans     &trans  &trans  &trans
             >;
         };
     };
