@@ -5,11 +5,11 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    tapping-term-ms = <1500>;
+    tapping-term-ms = <150>;
 };
 
 &lt {
-    tapping-term-ms = <1500>;
+    tapping-term-ms = <150>;
 };
 
 / {
