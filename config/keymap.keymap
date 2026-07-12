@@ -107,21 +107,21 @@
 
         windows {
             bindings = <
-&kp ESC    &kp N1     &kp N2    &kp N3    &kp N4         &kp N5                                                         &kp N6                 &kp N7  &kp N8     &kp N9         &kp N0     &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R          &kp T                                                          &kp Y                  &kp U   &kp I      &kp O          &kp P      &kp LEFT_BRACKET
-&kp LCTRL  &kp A      &kp S     &kp D     &kp F          &kp G                  &kp RIGHT_BRACKET  &kp BACKSLASH        &kp H                  &kp J   &kp K      &kp L          &kp SEMI   &kp APOS
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V          &kp B                  &kp EQUAL          &kp INTERNATIONAL_3  &kp N                  &kp M   &kp COMMA  &kp DOT        &kp FSLH   &kp INTERNATIONAL_1
-&kp LCTRL  &kp LCTRL  &kp LGUI  &kp LALT  &kp BACKSPACE  &lt 2 INTERNATIONAL_5  &lt 1 SPACE        &lt 3 ENTER          &lt 1 INTERNATIONAL_4  &none   &none      &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT
+&kp ESC        &kp N1     &kp N2    &kp N3    &kp N4         &kp N5                                                         &kp N6                 &kp N7  &kp N8     &kp N9         &kp N0     &kp MINUS
+&kp ESCAPE     &kp Q      &kp W     &kp E     &kp R          &kp T                                                          &kp Y                  &kp U   &kp I      &kp O          &kp P      &kp LEFT_BRACKET
+&mt LCTRL TAB  &kp A      &kp S     &kp D     &kp F          &kp G                  &kp RIGHT_BRACKET  &kp BACKSLASH        &kp H                  &kp J   &kp K      &kp L          &kp SEMI   &kp APOS
+&kp LSHFT      &kp Z      &kp X     &kp C     &kp V          &kp B                  &kp EQUAL          &kp INTERNATIONAL_3  &kp N                  &kp M   &kp COMMA  &kp DOT        &kp FSLH   &kp INTERNATIONAL_1
+&kp LCTRL      &kp LCTRL  &kp LGUI  &kp LALT  &kp BACKSPACE  &lt 2 INTERNATIONAL_5  &lt 1 SPACE        &lt 3 ENTER          &lt 1 INTERNATIONAL_4  &none   &none      &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT
             >;
         };
 
         symbol_and_arrow {
             bindings = <
-&trans  &none             &none             &none             &none             &none                   &none           &none          &none         &none            &none   &none
-&trans  &none             &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &none                   &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &none   &none
-&trans  &kp MINUS         &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &none   &none   &none   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &none   &none
-&trans  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &none   &none   &none   &win_left       &win_down      &win_up       &win_right       &none   &none
-&trans  &trans            &trans            &trans            &kp DEL           &trans  &trans  &trans  &trans          &trans         &trans        &trans           &trans  &trans
+&trans  &none             &none             &none             &none             &none                              &none           &none          &none         &none            &none   &none
+&trans  &kp SLASH         &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp LS(APOS)                       &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &none   &none
+&trans  &kp MINUS         &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(SEMICOLON)  &none   &none   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &none   &none
+&trans  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &none              &none   &none   &win_left       &win_down      &win_up       &win_right       &none   &none
+&trans  &trans            &trans            &trans            &kp DEL           &trans             &trans  &trans  &trans          &trans         &trans        &trans           &trans  &trans
             >;
         };
 
