@@ -22,16 +22,6 @@
             bindings = <&mkp MB3>;
             key-positions = <33 34 35>;
         };
-
-        prev {
-            bindings = <&mkp MB4>;
-            key-positions = <19 20>;
-        };
-
-        next {
-            bindings = <&mkp MB5>;
-            key-positions = <20 21>;
-        };
     };
 
     macros {
@@ -169,7 +159,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans    &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans    &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MB3  &mkp RCLK  &mo 5   &mo 6
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &mkp MB4  &mkp MB5   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans  &trans
             >;
         };
