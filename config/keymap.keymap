@@ -109,11 +109,11 @@
 
         symbol_and_arrow {
             bindings = <
-&trans      &none   &none   &none   &none   &none                       &none           &none          &none         &none            &none   &kp DELETE
-&kp ESCAPE  &trans  &trans  &trans  &trans  &trans                      &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &none   &kp LEFT_BRACKET
-&trans      &trans  &trans  &trans  &trans  &trans  &kp LA(F4)  &none   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &none   &kp APOSTROPHE
-&trans      &trans  &trans  &trans  &trans  &trans  &none       &none   &win_left       &win_down      &win_up       &win_right       &none   &none
-&trans      &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans         &trans        &trans           &trans  &trans
+&trans      &none      &none         &none   &none   &none                       &none           &none          &none         &none            &none   &kp DELETE
+&kp ESCAPE  &trans     &trans        &trans  &trans  &trans                      &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &none   &kp LEFT_BRACKET
+&trans      &kp MINUS  &kp LS(SEMI)  &trans  &trans  &trans  &kp LA(F4)  &none   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &none   &kp APOSTROPHE
+&trans      &kp SLASH  &kp LS(APOS)  &trans  &trans  &trans  &none       &none   &win_left       &win_down      &win_up       &win_right       &none   &none
+&trans      &trans     &trans        &trans  &trans  &trans  &trans      &trans  &trans          &trans         &trans        &trans           &trans  &trans
             >;
         };
 
