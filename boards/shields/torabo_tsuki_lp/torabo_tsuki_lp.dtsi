@@ -96,7 +96,7 @@
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
         require-prior-idle-ms = <200>;
-        excluded-positions = <33 34 35 36 37>;
+        excluded-positions = <32 33 34 35 36>;
     };
 
     vbatt: vbatt {
