@@ -155,7 +155,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans    &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3   &mkp LCLK  &mkp RCLK  &mo 5   &mo 6
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3   &mkp LCLK  &mkp RCLK  &mo 5   &mo 6   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans  &trans
             >;
