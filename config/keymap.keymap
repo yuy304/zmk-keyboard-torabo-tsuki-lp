@@ -193,11 +193,11 @@
 
         symbol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans         &trans  &trans  &trans                  &trans  &trans             &trans         &trans    &trans    &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(SLASH)  &trans  &trans  &trans                  &trans  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans    &trans    &trans
+&trans  &kp MINUS         &kp SLASH      &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(N8)         &kp LS(N9)     &kp SEMI  &kp APOS  &trans
+&trans  &kp LS(SEMI)      &kp LS(APOS)   &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans    &trans    &trans
+&trans  &trans            &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans    &trans    &trans
             >;
         };
     };
