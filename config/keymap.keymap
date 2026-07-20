@@ -193,11 +193,11 @@
 
         symbol {
             bindings = <
-&trans  &trans         &trans        &trans      &trans        &trans                         &trans         &trans                &trans                 &trans             &trans                   &trans
-&trans  &kp LS(SLASH)  &trans        &trans      &trans        &trans                         &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp RIGHT_BRACKET      &kp BACKSLASH      &kp LEFT_BRACKET         &trans
-&trans  &kp LS(N1)     &kp LS(N2)    &kp LS(N3)  &kp LS(N4)    &kp LS(N5)     &trans  &trans  &kp LS(N6)     &kp LS(N7)            &kp LS(N8)             &kp LS(N9)         &kp LS(INTERNATIONAL_1)  &trans
-&trans  &kp FSLH       &kp LS(APOS)  &kp MINUS   &kp LS(SEMI)  &kp LS(MINUS)  &trans  &trans  &kp LS(BSLH)   &kp EQUAL             &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT1                 &trans
-&trans  &trans         &trans        &trans      &trans        &trans         &trans  &trans  &trans         &trans                &trans                 &trans             &trans                   &trans
+&trans  &trans         &trans        &trans      &trans        &trans                         &trans      &trans                &trans                 &trans             &trans                   &trans
+&trans  &kp LS(SLASH)  &trans        &trans      &trans        &trans                         &kp EQUAL   &kp LS(LEFT_BRACKET)  &kp RIGHT_BRACKET      &kp BACKSLASH      &kp LEFT_BRACKET         &trans
+&trans  &kp LS(N1)     &kp LS(N2)    &kp LS(N3)  &kp LS(N4)    &kp LS(N5)     &trans  &trans  &kp LS(N6)  &kp LS(N7)            &kp LS(N8)             &kp LS(N9)         &kp LS(INTERNATIONAL_1)  &trans
+&trans  &kp FSLH       &kp LS(APOS)  &kp MINUS   &kp LS(SEMI)  &kp LS(MINUS)  &trans  &trans  &kp PIPE    &kp LS(EQUAL)         &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT1                 &trans
+&trans  &trans         &trans        &trans      &trans        &trans         &trans  &trans  &trans      &trans                &trans                 &trans             &trans                   &trans
             >;
         };
 
