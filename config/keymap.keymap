@@ -117,17 +117,17 @@
 &kp TAB    &kp Q      &kp W     &kp E         &kp R   &kp T                                                          &kp Y                  &kp U   &kp I      &kp O          &kp P      &kp MINUS
 &kp LCTRL  &kp A      &kp S     &kp D         &kp F   &kp G                  &kp RIGHT_BRACKET  &kp BACKSLASH        &kp H                  &kp J   &kp K      &kp L          &kp SEMI   &kp ENTER
 &kp LSHFT  &kp Z      &kp X     &kp C         &kp V   &kp B                  &kp EQUAL          &kp INTERNATIONAL_3  &kp N                  &kp M   &kp COMMA  &kp DOT        &kp FSLH   &mt RIGHT_SHIFT INTERNATIONAL_1
-&kp LCTRL  &kp LCTRL  &kp LGUI  &kp LEFT_ALT  &mo 8   &lt 2 INTERNATIONAL_5  &lt 1 SPACE        &lt 3 SPACE          &lt 1 INTERNATIONAL_4  &none   &none      &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT
+&kp LCTRL  &kp LCTRL  &kp LGUI  &kp LEFT_ALT  &mo 8   &lt 2 INTERNATIONAL_5  &lt 9 SPACE        &lt 3 SPACE          &lt 1 INTERNATIONAL_4  &none   &none      &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT
             >;
         };
 
         symbol_and_arrow {
             bindings = <
-&trans      &none      &none         &none   &none   &none                            &none           &none          &none         &none            &none             &trans
-&kp ESCAPE  &trans     &trans        &trans  &trans  &trans                           &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &kp LEFT_BRACKET  &kp DELETE
-&trans      &kp MINUS  &kp LS(SEMI)  &trans  &trans  &trans  &kp LA(F4)       &none   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS          &kp BACKSPACE
-&trans      &kp SLASH  &kp LS(APOS)  &trans  &trans  &trans  &kp LA(LC(DEL))  &none   &win_left       &win_down      &win_up       &win_right       &none             &none
-&trans      &trans     &trans        &trans  &trans  &trans  &trans           &trans  &trans          &trans         &trans        &trans           &trans            &trans
+&trans      &none      &none         &none   &none   &none                               &none           &none          &none         &none            &none             &trans
+&kp ESCAPE  &trans     &trans        &trans  &trans  &trans                              &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &kp LEFT_BRACKET  &kp DELETE
+&trans      &kp MINUS  &kp LS(SEMI)  &trans  &trans  &trans  &kp LA(F4)       &none      &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS          &kp BACKSPACE
+&trans      &kp SLASH  &kp LS(APOS)  &trans  &trans  &trans  &kp LA(LC(DEL))  &kp LG(L)  &win_left       &win_down      &win_up       &win_right       &none             &none
+&trans      &trans     &trans        &trans  &trans  &trans  &kp LS(LG(S))    &trans     &trans          &trans         &trans        &trans           &trans            &trans
             >;
         };
 
@@ -193,11 +193,21 @@
 
         symbol {
             bindings = <
-&trans  &trans            &trans         &trans  &trans  &trans                  &trans  &trans             &trans         &trans    &trans    &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(SLASH)  &trans  &trans  &trans                  &trans  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans    &trans    &trans
-&trans  &kp MINUS         &kp SLASH      &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(N8)         &kp LS(N9)     &kp SEMI  &kp APOS  &trans
-&trans  &kp LS(SEMI)      &kp LS(APOS)   &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans    &trans    &trans
-&trans  &trans            &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans    &trans    &trans
+&trans  &trans         &trans        &trans      &trans        &trans                         &trans         &trans                &trans                 &trans             &trans                   &trans
+&trans  &kp LS(SLASH)  &trans        &trans      &trans        &trans                         &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp RIGHT_BRACKET      &kp BACKSLASH      &kp LEFT_BRACKET         &trans
+&trans  &kp LS(N1)     &kp LS(N2)    &kp LS(N3)  &kp LS(N4)    &kp LS(N5)     &trans  &trans  &kp LS(N6)     &kp LS(N7)            &kp LS(N8)             &kp LS(N9)         &kp LS(INTERNATIONAL_1)  &trans
+&trans  &kp FSLH       &kp LS(APOS)  &kp MINUS   &kp LS(SEMI)  &kp LS(MINUS)  &trans  &trans  &kp LS(BSLH)   &kp EQUAL             &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT1                 &trans
+&trans  &trans         &trans        &trans      &trans        &trans         &trans  &trans  &trans         &trans                &trans                 &trans             &trans                   &trans
+            >;
+        };
+
+        func {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
             >;
         };
     };
