@@ -117,17 +117,17 @@
 &kp TAB    &kp Q      &kp W     &kp E         &kp R   &kp T                                                          &kp Y                  &kp U   &kp I      &kp O          &kp P      &kp BACKSPACE
 &kp LCTRL  &kp A      &kp S     &kp D         &kp F   &kp G                  &kp RIGHT_BRACKET  &kp BACKSLASH        &kp H                  &kp J   &kp K      &kp L          &kp SEMI   &kp ENTER
 &kp LSHFT  &kp Z      &kp X     &kp C         &kp V   &kp B                  &kp EQUAL          &kp INTERNATIONAL_3  &kp N                  &kp M   &kp COMMA  &kp DOT        &kp FSLH   &mt RIGHT_SHIFT INTERNATIONAL_1
-&kp LCTRL  &kp LCTRL  &kp LGUI  &kp LEFT_ALT  &mo 8   &lt 2 INTERNATIONAL_5  &lt 9 SPACE        &lt 3 SPACE          &lt 1 INTERNATIONAL_4  &none   &none      &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT
+&kp LCTRL  &kp LCTRL  &kp LGUI  &kp LEFT_ALT  &mo 8   &lt 2 INTERNATIONAL_5  &lt 9 SPACE        &lt 3 SPACE          &lt 1 INTERNATIONAL_4  &none   &none      &kp RIGHT_ALT  &kp RCTRL  &kp RCTRL
             >;
         };
 
         symbol_and_arrow {
             bindings = <
-&trans      &none      &none         &none   &none   &none                               &none           &none          &none         &none            &none             &trans
-&kp ESCAPE  &trans     &trans        &trans  &trans  &trans                              &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &kp LEFT_BRACKET  &kp DELETE
-&trans      &kp MINUS  &kp LS(SEMI)  &trans  &trans  &trans  &kp LA(F4)       &none      &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS          &trans
-&trans      &kp SLASH  &kp LS(APOS)  &trans  &trans  &trans  &kp LA(LC(DEL))  &kp LG(L)  &win_left       &win_down      &win_up       &win_right       &none             &none
-&trans      &trans     &trans        &trans  &trans  &trans  &kp LS(LG(S))    &trans     &trans          &trans         &trans        &trans           &trans            &trans
+&trans      &none      &none         &none   &none   &none                                   &none           &none          &none         &none            &none             &trans
+&kp ESCAPE  &trans     &trans        &trans  &trans  &trans                                  &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &kp LEFT_BRACKET  &kp DELETE
+&trans      &kp MINUS  &kp LS(SEMI)  &trans  &trans  &trans  &kp LA(F4)       &kp LS(LG(S))  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &kp APOS          &kp BACKSPACE
+&trans      &kp SLASH  &kp LS(APOS)  &trans  &trans  &trans  &kp LA(LC(DEL))  &kp LG(L)      &win_left       &win_down      &win_up       &win_right       &none             &none
+&trans      &trans     &trans        &trans  &trans  &trans  &trans           &trans         &trans          &trans         &trans        &trans           &trans            &trans
             >;
         };
 
