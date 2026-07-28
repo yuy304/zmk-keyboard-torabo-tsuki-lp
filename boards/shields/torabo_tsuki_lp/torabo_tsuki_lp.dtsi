@@ -96,7 +96,8 @@
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
         require-prior-idle-ms = <200>;
-        excluded-positions = <32 33 34 35 36>;
+        // Keep the temporary mouse layer active while holding the left-column modifiers.
+        excluded-positions = <24 32 33 34 35 36 38 52>;
     };
 
     vbatt: vbatt {
