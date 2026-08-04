@@ -106,6 +106,13 @@
 
             label = "WIN_RIGHT";
         };
+
+        bt_sel_2_layer_7: bt_sel_2_layer_7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 2 &to 7>;
+            label = "BT_SEL_2_LAYER_7";
+        };
     };
 
     keymap {
@@ -123,11 +130,11 @@
 
         symbol_and_arrow {
             bindings = <
-&trans      &none      &none         &none   &none       &none                                   &none           &none          &none         &none            &none   &trans
-&kp ESCAPE  &trans     &trans        &trans  &trans      &trans                                  &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &trans  &trans
-&trans      &kp MINUS  &kp LS(SEMI)  &trans  &trans      &trans  &kp LA(F4)       &none          &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans      &kp SLASH  &kp LS(APOS)  &trans  &trans      &trans  &kp LA(LC(DEL))  &kp LG(L)      &win_left       &win_down      &win_up       &win_right       &none   &none
-&trans      &trans     &trans        &trans  &kp DELETE  &trans  &mo 3            &kp LS(LG(S))  &trans          &trans         &trans        &trans           &trans  &trans
+&trans      &none      &none         &none   &none       &none                               &none           &none          &none         &none            &none   &trans
+&kp ESCAPE  &trans     &trans        &trans  &trans      &trans                              &kp HOME        &kp PAGE_DOWN  &kp PG_UP     &kp END          &trans  &trans
+&trans      &kp MINUS  &kp LS(SEMI)  &trans  &trans      &trans  &kp LA(F4)       &none      &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans      &kp SLASH  &kp LS(APOS)  &trans  &trans      &trans  &kp LA(LC(DEL))  &kp LG(L)  &win_left       &win_down      &win_up       &win_right       &none   &none
+&trans      &trans     &trans        &trans  &kp DELETE  &trans  &mo 3            &trans     &trans          &trans         &trans        &trans           &trans  &kp LS(LG(S))
             >;
         };
 
@@ -143,11 +150,11 @@
 
         out_and_os {
             bindings = <
-&trans  &bt_sel_0_layer_0  &bt_sel_1_layer_7  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &none   &none   &none   &none   &none   &none
-&trans  &out_usb_layer_0   &out OUT_BLE       &none         &none         &none                                 &none   &none   &none   &none   &none   &none
-&trans  &none              &none              &none         &none         &none         &to 0   &bt BT_CLR      &none   &none   &none   &none   &none   &none
-&trans  &none              &none              &none         &none         &none         &to 7   &bt BT_CLR_ALL  &none   &none   &none   &none   &none   &none
-&trans  &trans             &trans             &trans        &trans        &trans        &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt_sel_0_layer_0  &bt_sel_1_layer_7  &bt_sel_2_layer_7  &bt BT_SEL 3  &bt BT_SEL 4                          &none   &none   &none   &none   &none   &none
+&trans  &out_usb_layer_0   &out OUT_BLE       &none              &none         &none                                 &none   &none   &none   &none   &none   &none
+&trans  &none              &none              &none              &none         &none         &to 0   &bt BT_CLR      &none   &none   &none   &none   &none   &none
+&trans  &none              &none              &none              &none         &none         &to 7   &bt BT_CLR_ALL  &none   &none   &none   &none   &none   &none
+&trans  &trans             &trans             &trans             &trans        &trans        &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
