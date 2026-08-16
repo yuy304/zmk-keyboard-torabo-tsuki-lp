@@ -120,11 +120,11 @@
 
         windows {
             bindings = <
-&kp ESC    &kp N1            &kp N2    &kp N3        &kp N4         &kp N5                                                         &kp N6                 &kp N7  &kp N8     &kp N9         &kp N0         &kp MINUS
-&kp TAB    &kp Q             &kp W     &kp E         &kp R          &kp T                                                          &kp Y                  &kp U   &kp I      &kp O          &kp P          &kp LEFT_BRACKET
-&kp LCTRL  &kp A             &kp S     &kp D         &kp F          &kp G                  &kp RIGHT_BRACKET  &kp BACKSLASH        &kp H                  &kp J   &kp K      &kp L          &kp SEMI       &kp APOS
-&kp LSHFT  &kp Z             &kp X     &kp C         &kp V          &kp B                  &kp EQUAL          &kp INTERNATIONAL_3  &kp N                  &kp M   &kp COMMA  &kp DOT        &kp FSLH       &mt RIGHT_SHIFT INTERNATIONAL_1
-&kp LCTRL  &kp LEFT_CONTROL  &kp LGUI  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 INTERNATIONAL_5  &lt 8 SPACE        &lt 9 ENTER          &lt 1 INTERNATIONAL_4  &none   &none      &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RCTRL
+&kp ESC    &kp N1            &kp N2    &kp N3        &kp N4            &kp N5                                               &kp N6         &kp N7  &kp N8     &kp N9         &kp N0         &kp MINUS
+&kp TAB    &kp Q             &kp W     &kp E         &kp R             &kp T                                                &kp Y          &kp U   &kp I      &kp O          &kp P          &kp LEFT_BRACKET
+&kp LCTRL  &kp A             &kp S     &kp D         &kp F             &kp G        &kp RIGHT_BRACKET  &kp BACKSLASH        &kp H          &kp J   &kp K      &kp L          &kp SEMI       &kp APOS
+&kp LSHFT  &kp Z             &kp X     &kp C         &kp V             &kp B        &kp EQUAL          &kp INTERNATIONAL_3  &kp N          &kp M   &kp COMMA  &kp DOT        &kp FSLH       &mt RIGHT_SHIFT INTERNATIONAL_1
+&kp LCTRL  &kp LEFT_CONTROL  &kp LGUI  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 8 LANGUAGE_1   &kp ENTER            &kp BACKSPACE  &none   &none      &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RCTRL
             >;
         };
 
@@ -190,11 +190,11 @@
 
         mac {
             bindings = <
-&trans        &trans            &trans        &trans        &trans  &trans                            &trans            &trans  &trans  &trans  &trans  &trans
-&trans        &trans            &trans        &trans        &trans  &trans                            &trans            &trans  &trans  &trans  &trans  &trans
-&kp LCTRL     &trans            &trans        &trans        &trans  &trans            &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans
-&trans        &trans            &trans        &trans        &trans  &trans            &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans
-&kp CAPSLOCK  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_GUI  &trans  &lt 2 LANGUAGE_2  &trans  &trans  &lt 1 LANGUAGE_1  &trans  &trans  &trans  &trans  &trans
+&trans        &trans            &trans        &trans        &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans            &trans        &trans        &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL     &trans            &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans            &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp CAPSLOCK  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -205,16 +205,6 @@
 &trans  &kp LS(N1)     &kp LS(N2)    &kp LS(N3)  &kp LS(N4)    &kp LS(N5)     &trans  &trans  &kp LS(N6)               &kp LS(N7)            &kp LS(N8)             &kp LS(N9)         &kp LS(INTERNATIONAL_1)  &trans
 &trans  &kp FSLH       &kp LS(APOS)  &kp MINUS   &kp LS(SEMI)  &kp LS(MINUS)  &trans  &trans  &kp LS(INTERNATIONAL_3)  &kp LS(EQUAL)         &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT1                 &trans
 &trans  &trans         &trans        &trans      &trans        &trans         &trans  &trans  &trans                   &trans                &trans                 &trans             &trans                   &trans
-            >;
-        };
-
-        func {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
             >;
         };
     };
